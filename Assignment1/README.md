@@ -1,11 +1,11 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
-- Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+- Name: Kexin (Heather) Hao
+- How many hours did it take you to complete this assignment? 4 hour 
+- Did you collaborate with any other students/TAs/Professors? No
+- Did you use any external resources? (Cite them below) 
+  - https://www.linkedin.com/learning/hands-on-introduction-python/learn-python-by-doing?u=74653650
+  - https://www.linkedin.com/learning/advanced-python/welcome?u=74653650
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
 
