@@ -33,7 +33,7 @@ class Rectangle(Shape):
 
 if __name__ == "__main__":
     # Create a rectangle object
-    rect = Rectangle()
+    rect = Rectangle(0, 0)
 
     # Call a member function
     rect.set_values(3, 4)
