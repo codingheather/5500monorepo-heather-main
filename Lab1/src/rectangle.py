@@ -24,11 +24,11 @@ class Rectangle(Shape):
         self._height = height
         
     def set_values(self, x, y):
-        self.width = x
-        self.height = y
+        self._width = x
+        self._height = y
 
     def area(self):
-        return self.width * self.height
+        return self._width * self._height
 
 
 if __name__ == "__main__":
