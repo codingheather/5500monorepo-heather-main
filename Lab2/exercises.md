@@ -43,8 +43,10 @@ I do not see any member function that include lots of arguments more than 5. The
 3. Take another look at the Requests class. Note that many of the methods includes `**kwargs` as an argument. What is `**kwargs`? Why might it be good for a method to have a `**kwargs` argument? Why might it be bad?  
 
 **kwargs allows caller to pass keyworded variable length of arguments to a function. 
+
 Good:
  - allows caller to pass any number of keyword arguments
+
 Bad:
  - hard to debug as python will not tell the engineer the parameter is missing
 
