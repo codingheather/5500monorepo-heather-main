@@ -1,11 +1,17 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
+- Name: Kexin Heather Hao
+- How many hours did it take you to complete this assignment? 10 hours
+- Did you collaborate with any other students/TAs/Professors? No
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+  - https://mathspp.com/blog/how-to-create-a-python-package-in-2022
+  - https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+  - https://setuptools.pypa.io/en/latest/references/keywords.html
+  - https://docs.python.org/3/library/json.html
+  - https://mathspp.com/blog/custom-json-encoder-and-decoder
+  - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+  - https://www.freecodecamp.org/news/a-beginners-guide-to-git-what-is-a-changelog-and-how-to-generate-it/
+  - https://pypi.org/project/haokjsonapi/
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
 
