@@ -6,31 +6,31 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Window and Drawable Canvas Size
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To setup the window and drawable canvas with size 600x400 (600 pixels wide, 400 pixels high).
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be started and running. 
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: Double click the program icon to start the program.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: A user will open the program and a canvas with size 600x400 will be ready for the user to paint on. 
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: (1) The program may not be opened after clicking the icon. In this case, try to delete and re-install the program. (2) The canvas might be bigger than the screen size. In this case, switch to a screen with more pixels.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: High-priority.
 
-**When available**: *the targeted release that covers this use case*
+**When available**: First release
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: N/A
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: N/A
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: N/A
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: We might need to use relative size instead of hardcode the 600x400 in the future to make sure that the canvas could be used in any screen size with more or less pixels.
 
 <hr>
 

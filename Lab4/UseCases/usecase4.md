@@ -6,31 +6,35 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Drag and Draw over the Canvas with Mouse 
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To drag and draw things over the canvas with the mouse acting as a pencil on a piece of paper by left-click, hold, and drag the mouse to draw on the canvas.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: (1) The program must be running and in a responsive state. (2) The canvas must be present on the screen for drawing. (3) the color has been selected for drawing
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: (1) User left-clicking the pixel to make the pixel change color (2) Keep drag the mouse without releasing it for drawing on the canvas
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario 1**: A user will left click, hold the left click and draw a heart shape on the canvas. 
+
+**Scenario 2**: A user will left-click a pixel and see a color change of that pixel
+
+**Scenario 3**: A user will hold a left click and keep dragging the mouse and move the cursor without release it and they will see the pixels that the cursor hovered changes color just like drawing with a pencil on a piece of paper
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: The drawing is not present. In this case, (1) user should check whether the pixel is left-clicked. (2) the user should check whether the pixel is dead or not. (3) the user should make sure that they do not release the press event and keep pressing during the entire drawring.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: High-priority
 
-**When available**: *the targeted release that covers this use case*
+**When available**: First release
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: The primary actor communicates through I/O devices. This includes the mouse. The system is responsible for maintaining focus of the window when the user clicks. The user is responsible for all other input.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: N/A
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: N/A
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: N/A
 
 <hr>
 
