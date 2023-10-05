@@ -50,15 +50,15 @@ class GildedRoseTest(unittest.TestCase):
         assert new_quality_three == new_quality_two - 2
 
     def test_aged_brie_item(self):
-        items_two = [Item("Aged Brie", 2, 49)]
-        gilded_rose_two = GildedRose(items_two)
-        original_sell_in = gilded_rose_two.get_item_sell_in("Aged Brie")
-        original_quality = gilded_rose_two.get_item_quality("Aged Brie")
+        items = [Item("Aged Brie", 2, 40)]
+        gilded_rose = GildedRose(items)
+        original_sell_in = gilded_rose.get_item_sell_in("Aged Brie")
+        original_quality = gilded_rose.get_item_quality("Aged Brie")
 
-        gilded_rose_two.update_quality()
+        gilded_rose.update_quality()
 
-        new_sell_in_one = gilded_rose_two.get_item_sell_in("Aged Brie")
-        new_quality_one = gilded_rose_two.get_item_quality("Aged Brie")
+        new_sell_in_one = gilded_rose.get_item_sell_in("Aged Brie")
+        new_quality_one = gilded_rose.get_item_quality("Aged Brie")
 
         assert new_sell_in_one < original_sell_in
         assert new_sell_in_one == original_sell_in - 1
@@ -67,11 +67,25 @@ class GildedRoseTest(unittest.TestCase):
         assert new_quality_one > original_quality
         assert new_quality_one == original_quality + 1
 
-        gilded_rose_two.update_quality()
-        new_quality_two = gilded_rose_two.get_item_quality("Aged Brie")
+        gilded_rose.update_quality()
+        gilded_rose.update_quality()
+
+        new_sell_in_two = gilded_rose.get_item_sell_in("Aged Brie")
+        new_quality_two = gilded_rose.get_item_quality("Aged Brie")
+
+        assert new_sell_in_two < new_sell_in_one
+        assert new_sell_in_two == new_sell_in_one - 2
+
         assert new_quality_two <= 50
-        assert new_quality_two == new_quality_one
-        assert new_quality_two == 50
+        assert new_quality_two > new_quality_one
+        assert new_quality_two == new_quality_one + 3
+
+        # hit 50 already for sure
+        for i in range(5):
+            gilded_rose.update_quality()
+
+        new_quality_three = gilded_rose.get_item_quality("Aged Brie")
+        assert new_quality_three == 50
 
     def test_sulfuras_item(self):
         items = [Item("Sulfuras, Hand of Ragnaros", 5, 42)]
