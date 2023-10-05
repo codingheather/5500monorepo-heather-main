@@ -17,6 +17,7 @@ class GildedRose(object):
     def __init__(self, items: list[Item]):
         # DO NOT CHANGE THIS ATTRIBUTE!!!
         self.items = items
+        # can add more class attributes
 
     def update_quality(self):
         for item in self.items:
@@ -47,3 +48,13 @@ class GildedRose(object):
                 else:
                     if item.quality < 50:
                         item.quality = item.quality + 1
+
+    def get_item_sell_in(self, name):
+        for item in self.items:
+            if item.name == name:
+                return item.sell_in
+    
+    def get_item_quality(self, name):
+        for item in self.items:
+            if item.name == name:
+                return item.quality
