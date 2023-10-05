@@ -1,10 +1,10 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
-- Did you use any external resources? (Cite them below)
-  - tbd
+- Name: Heather Hao
+- How many hours did it take you to complete this assignment? 15 hours
+- Did you collaborate with any other students/TAs/Professors? No
+- Did you use any external resources? (Cite them below) 
+  - https://en.wikipedia.org/wiki/Strategy_pattern
   - tbd
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
