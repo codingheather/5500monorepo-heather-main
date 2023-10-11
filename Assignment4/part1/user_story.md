@@ -6,7 +6,7 @@ Acceptance Criteria:
 
 1. When the user clicks the solid blue "Sign up" button in the top right corner, the signup page will appear with two options in separate boxes. The left box contains the "Personal" choice, while the right one contains the "Business" choice. Both have purposes and benefits related to their respective account types.
 
-2. On the select account type page, the default choice is "Personal," but the user can switch to "Business" by clicking the solid blue "Get Started" button below the two choice boxes to proceed to the next step of signing up.
+2. On the select account type page, the default choice is "Personal," but the user can switch to "Business". After making a selection, clicking the solid blue "Get Started" button below the two choice boxes to proceed to the next step of signing up.
 
 3. After the user select an account type and proceed to the next step, the user can enter their email address and click the solid blue "Next" button below the input field.
 
