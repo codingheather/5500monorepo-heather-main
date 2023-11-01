@@ -41,10 +41,7 @@ phase of the SDLC, you should expect your tasks and User Stories to change as yo
 
 # Deliverables
 
-Your design documents should be saved under your `opp-api` repo's wiki page. Every repo on GitHub has a wiki. For details on
-how to use the wiki, [read this](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis). You can include both text and images in wiki.  
-
-wiki uses Markdown, popular markup language used to write technical documentation. Knowing how to use Markdown is a practical skill that
+On your `opp-api` repo, create a `design-documents` folder at the root level. Put your design documents in that folder. You can include both text files and images in that folder. If you include text files, I highly encourage you to write in Markdown, a popular markup language used to write technical documentation. Knowing how to use Markdown is a practical skill that
 every developer should know. Here's a [good guide](https://www.w3schools.io/file/markdown-introduction/) to get you started. 
 
 Your team should create the following design documents:
@@ -130,4 +127,4 @@ Response Body
 
 
 
-**On Canvas, submit the GitHub link to your project's wiki. Only one team member should submit it on behalf of the team.**  
+**On Canvas, submit the GitHub link to your project's opp-api repo. Only one team member should submit it on behalf of the team.**  
